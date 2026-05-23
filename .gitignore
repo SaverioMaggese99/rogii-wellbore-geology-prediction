@@ -1,0 +1,13 @@
+data/
+submissions/
+*.csv
+*.zip
+*.parquet
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.egg-info/
+dist/
+build/
+.DS_Store
