@@ -8,5 +8,10 @@ xgboost>=2.0
 catboost>=1.2
 PyWavelets>=1.4
 scipy>=1.11
+optuna>=3.5
 kaggle>=1.6
 ipykernel>=6.0
+statsmodels>=0.14
+# Optional — uncomment to install
+# torch>=2.0          # for BiLSTM model
+# dtaidistance>=2.3   # for DTW registration
