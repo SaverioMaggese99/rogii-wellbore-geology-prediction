@@ -23,8 +23,9 @@ from data_utils import (
     WELL_COL, TARGET_COL, DEPTH_COL, GR_COL, X_COL, Y_COL, Z_COL, TVTINPUT_COL
 )
 
-DATA_DIR   = Path('../data')
-SUBMIT_DIR = Path('../submissions')
+_HERE      = Path(__file__).parent        # notebooks/
+DATA_DIR   = _HERE.parent / 'data'        # repo_root/data/
+SUBMIT_DIR = _HERE.parent / 'submissions'
 SUBMIT_DIR.mkdir(exist_ok=True)
 SEED    = 42
 N_FOLDS = 3   # 3 folds for speed; use 5 on Kaggle
